@@ -3,7 +3,6 @@ const value = document.querySelector('.main-title')
 let count = 0;
 
 btns.forEach((btn) => {
-
   btn.addEventListener('click', ((e) => {
     if (e.currentTarget.classList.contains('arti')) {
       count++;
